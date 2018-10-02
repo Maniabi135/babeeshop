@@ -2,14 +2,7 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
 /* -------------------------------------------------- */
-body,
-html {
-    margin : 0px !important;
-    padding: 0px !important;
-}
-p{
-    margin : 0 !important;
-}
+
 
 /*[ FONT SIZE ]
 ///////////////////////////////////////////////////////////
@@ -821,12 +814,12 @@ p{
 */
 
 .ptb-10 {
-    padding-top   : 10px !important;
+    padding-top: 10px !important;
     padding-bottom: 10px !important;
 }
 
 .plr-20 {
-    padding-left : 20px !important;
+    padding-left: 20px !important;
     padding-right: 20px !important;
 }
 
@@ -8880,7 +8873,7 @@ p{
 }
 
 .m-l-r-auto {
-    margin-left : auto;
+    margin-left: auto;
     margin-right: auto;
 }
 
@@ -8900,16 +8893,12 @@ p{
 
 /* ------------------------------------ */
 
-.text-white {
+.font-white {
     color: white;
 }
 
-.text-black {
+.font-black {
     color: black;
-}
-
-.text-hov-white:hover {
-    color: white;
 }
 
 
@@ -9095,7 +9084,7 @@ p{
 */
 
 .sizefull {
-    width : 100%;
+    width: 100%;
     height: 100%;
 }
 
@@ -9251,7 +9240,7 @@ p{
 
 .wrap-pic-cir {
     border-radius: 50%;
-    overflow     : hidden;
+    overflow: hidden;
 }
 
 .wrap-pic-cir img {
@@ -9271,24 +9260,24 @@ p{
 /* ------------------------------------ */
 
 .hov-img-zoom {
-    display : block;
+    display: block;
     overflow: hidden;
 }
 
 .hov-img-zoom img {
-    width             : 100%;
+    width: 100%;
     -webkit-transition: all 0.6s;
-    -o-transition     : all 0.6s;
-    -moz-transition   : all 0.6s;
-    transition        : all 0.6s;
+    -o-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    transition: all 0.6s;
 }
 
 .hov-img-zoom:hover img {
     -webkit-transform: scale(1.1);
-    -moz-transform   : scale(1.1);
-    -ms-transform    : scale(1.1);
-    -o-transform     : scale(1.1);
-    transform        : scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 
@@ -9319,58 +9308,58 @@ p{
 
 .trans-0-1 {
     -webkit-transition: all 0.1s;
-    -o-transition     : all 0.1s;
-    -moz-transition   : all 0.1s;
-    transition        : all 0.1s;
+    -o-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    transition: all 0.1s;
 }
 
 .trans-0-2 {
     -webkit-transition: all 0.2s;
-    -o-transition     : all 0.2s;
-    -moz-transition   : all 0.2s;
-    transition        : all 0.2s;
+    -o-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
 }
 
 .trans-0-3 {
     -webkit-transition: all 0.3s;
-    -o-transition     : all 0.3s;
-    -moz-transition   : all 0.3s;
-    transition        : all 0.3s;
+    -o-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 .trans-0-4 {
     -webkit-transition: all 0.4s;
-    -o-transition     : all 0.4s;
-    -moz-transition   : all 0.4s;
-    transition        : all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
 }
 
 .trans-0-5 {
     -webkit-transition: all 0.5s;
-    -o-transition     : all 0.5s;
-    -moz-transition   : all 0.5s;
-    transition        : all 0.5s;
+    -o-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
 }
 
 .trans-0-6 {
     -webkit-transition: all 0.6s;
-    -o-transition     : all 0.6s;
-    -moz-transition   : all 0.6s;
-    transition        : all 0.6s;
+    -o-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    transition: all 0.6s;
 }
 
 .trans-0-9 {
     -webkit-transition: all 0.9s;
-    -o-transition     : all 0.9s;
-    -moz-transition   : all 0.9s;
-    transition        : all 0.9s;
+    -o-transition: all 0.9s;
+    -moz-transition: all 0.9s;
+    transition: all 0.9s;
 }
 
 .trans-1-0 {
     -webkit-transition: all 1s;
-    -o-transition     : all 1s;
-    -moz-transition   : all 1s;
-    transition        : all 1s;
+    -o-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
 }
 
 
@@ -9387,63 +9376,63 @@ p{
 /* ------------------------------------ */
 
 .flex-w {
-    display          : -webkit-box;
-    display          : -webkit-flex;
-    display          : -moz-box;
-    display          : -ms-flexbox;
-    display          : flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-flex-wrap: wrap;
-    -moz-flex-wrap   : wrap;
-    -ms-flex-wrap    : wrap;
-    -o-flex-wrap     : wrap;
-    flex-wrap        : wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 
 /* ------------------------------------ */
 
 .flex-l {
-    display        : -webkit-box;
-    display        : -webkit-flex;
-    display        : -moz-box;
-    display        : -ms-flexbox;
-    display        : flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
     justify-content: flex-start;
 }
 
 .flex-r {
-    display        : -webkit-box;
-    display        : -webkit-flex;
-    display        : -moz-box;
-    display        : -ms-flexbox;
-    display        : flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
     justify-content: flex-end;
 }
 
 .flex-c {
-    display        : -webkit-box;
-    display        : -webkit-flex;
-    display        : -moz-box;
-    display        : -ms-flexbox;
-    display        : flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
     justify-content: center;
 }
 
 .flex-sa {
-    display        : -webkit-box;
-    display        : -webkit-flex;
-    display        : -moz-box;
-    display        : -ms-flexbox;
-    display        : flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
     justify-content: space-around;
 }
 
 .flex-sb {
-    display        : -webkit-box;
-    display        : -webkit-flex;
-    display        : -moz-box;
-    display        : -ms-flexbox;
-    display        : flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
     justify-content: space-between;
 }
 
@@ -9451,377 +9440,377 @@ p{
 /* ------------------------------------ */
 
 .flex-t {
-    display        : -webkit-box;
-    display        : -webkit-flex;
-    display        : -moz-box;
-    display        : -ms-flexbox;
-    display        : flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
     -ms-align-items: flex-start;
-    align-items    : flex-start;
+    align-items: flex-start;
 }
 
 .flex-b {
-    display        : -webkit-box;
-    display        : -webkit-flex;
-    display        : -moz-box;
-    display        : -ms-flexbox;
-    display        : flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
     -ms-align-items: flex-end;
-    align-items    : flex-end;
+    align-items: flex-end;
 }
 
 .flex-m {
-    display        : -webkit-box;
-    display        : -webkit-flex;
-    display        : -moz-box;
-    display        : -ms-flexbox;
-    display        : flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
     -ms-align-items: center;
-    align-items    : center;
+    align-items: center;
 }
 
 .flex-str {
-    display        : -webkit-box;
-    display        : -webkit-flex;
-    display        : -moz-box;
-    display        : -ms-flexbox;
-    display        : flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
     -ms-align-items: stretch;
-    align-items    : stretch;
+    align-items: stretch;
 }
 
 
 /* ------------------------------------ */
 
 .flex-row {
-    display               : -webkit-box;
-    display               : -webkit-flex;
-    display               : -moz-box;
-    display               : -ms-flexbox;
-    display               : flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-flex-direction: row;
-    -moz-flex-direction   : row;
-    -ms-flex-direction    : row;
-    -o-flex-direction     : row;
-    flex-direction        : row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    -o-flex-direction: row;
+    flex-direction: row;
 }
 
 .flex-row-rev {
-    display               : -webkit-box;
-    display               : -webkit-flex;
-    display               : -moz-box;
-    display               : -ms-flexbox;
-    display               : flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-flex-direction: row-reverse;
-    -moz-flex-direction   : row-reverse;
-    -ms-flex-direction    : row-reverse;
-    -o-flex-direction     : row-reverse;
-    flex-direction        : row-reverse;
+    -moz-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    -o-flex-direction: row-reverse;
+    flex-direction: row-reverse;
 }
 
 .flex-col {
-    display               : -webkit-box;
-    display               : -webkit-flex;
-    display               : -moz-box;
-    display               : -ms-flexbox;
-    display               : flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-flex-direction: column;
-    -moz-flex-direction   : column;
-    -ms-flex-direction    : column;
-    -o-flex-direction     : column;
-    flex-direction        : column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
 }
 
 .flex-col-rev {
-    display               : -webkit-box;
-    display               : -webkit-flex;
-    display               : -moz-box;
-    display               : -ms-flexbox;
-    display               : flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-flex-direction: column-reverse;
-    -moz-flex-direction   : column-reverse;
-    -ms-flex-direction    : column-reverse;
-    -o-flex-direction     : column-reverse;
-    flex-direction        : column-reverse;
+    -moz-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    -o-flex-direction: column-reverse;
+    flex-direction: column-reverse;
 }
 
 
 /* ------------------------------------ */
 
 .flex-c-m {
-    display        : -webkit-box;
-    display        : -webkit-flex;
-    display        : -moz-box;
-    display        : -ms-flexbox;
-    display        : flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
     justify-content: center;
     -ms-align-items: center;
-    align-items    : center;
+    align-items: center;
 }
 
 .flex-c-t {
-    display        : -webkit-box;
-    display        : -webkit-flex;
-    display        : -moz-box;
-    display        : -ms-flexbox;
-    display        : flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
     justify-content: center;
     -ms-align-items: flex-start;
-    align-items    : flex-start;
+    align-items: flex-start;
 }
 
 .flex-c-b {
-    display        : -webkit-box;
-    display        : -webkit-flex;
-    display        : -moz-box;
-    display        : -ms-flexbox;
-    display        : flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
     justify-content: center;
     -ms-align-items: flex-end;
-    align-items    : flex-end;
+    align-items: flex-end;
 }
 
 .flex-c-str {
-    display        : -webkit-box;
-    display        : -webkit-flex;
-    display        : -moz-box;
-    display        : -ms-flexbox;
-    display        : flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
     justify-content: center;
     -ms-align-items: stretch;
-    align-items    : stretch;
+    align-items: stretch;
 }
 
 .flex-l-m {
-    display        : -webkit-box;
-    display        : -webkit-flex;
-    display        : -moz-box;
-    display        : -ms-flexbox;
-    display        : flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
     justify-content: flex-start;
     -ms-align-items: center;
-    align-items    : center;
+    align-items: center;
 }
 
 .flex-r-m {
-    display        : -webkit-box;
-    display        : -webkit-flex;
-    display        : -moz-box;
-    display        : -ms-flexbox;
-    display        : flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
     justify-content: flex-end;
     -ms-align-items: center;
-    align-items    : center;
+    align-items: center;
 }
 
 .flex-sa-m {
-    display        : -webkit-box;
-    display        : -webkit-flex;
-    display        : -moz-box;
-    display        : -ms-flexbox;
-    display        : flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
     justify-content: space-around;
     -ms-align-items: center;
-    align-items    : center;
+    align-items: center;
 }
 
 .flex-sb-m {
-    display        : -webkit-box;
-    display        : -webkit-flex;
-    display        : -moz-box;
-    display        : -ms-flexbox;
-    display        : flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
     justify-content: space-between;
     -ms-align-items: center;
-    align-items    : center;
+    align-items: center;
 }
 
 
 /* ------------------------------------ */
 
 .flex-col-l {
-    display               : -webkit-box;
-    display               : -webkit-flex;
-    display               : -moz-box;
-    display               : -ms-flexbox;
-    display               : flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-flex-direction: column;
-    -moz-flex-direction   : column;
-    -ms-flex-direction    : column;
-    -o-flex-direction     : column;
-    flex-direction        : column;
-    -ms-align-items       : flex-start;
-    align-items           : flex-start;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    -ms-align-items: flex-start;
+    align-items: flex-start;
 }
 
 .flex-col-r {
-    display               : -webkit-box;
-    display               : -webkit-flex;
-    display               : -moz-box;
-    display               : -ms-flexbox;
-    display               : flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-flex-direction: column;
-    -moz-flex-direction   : column;
-    -ms-flex-direction    : column;
-    -o-flex-direction     : column;
-    flex-direction        : column;
-    -ms-align-items       : flex-end;
-    align-items           : flex-end;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    -ms-align-items: flex-end;
+    align-items: flex-end;
 }
 
 .flex-col-c {
-    display               : -webkit-box;
-    display               : -webkit-flex;
-    display               : -moz-box;
-    display               : -ms-flexbox;
-    display               : flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-flex-direction: column;
-    -moz-flex-direction   : column;
-    -ms-flex-direction    : column;
-    -o-flex-direction     : column;
-    flex-direction        : column;
-    -ms-align-items       : center;
-    align-items           : center;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    -ms-align-items: center;
+    align-items: center;
 }
 
 .flex-col-l-m {
-    display               : -webkit-box;
-    display               : -webkit-flex;
-    display               : -moz-box;
-    display               : -ms-flexbox;
-    display               : flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-flex-direction: column;
-    -moz-flex-direction   : column;
-    -ms-flex-direction    : column;
-    -o-flex-direction     : column;
-    flex-direction        : column;
-    -ms-align-items       : flex-start;
-    align-items           : flex-start;
-    justify-content       : center;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    -ms-align-items: flex-start;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 .flex-col-r-m {
-    display               : -webkit-box;
-    display               : -webkit-flex;
-    display               : -moz-box;
-    display               : -ms-flexbox;
-    display               : flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-flex-direction: column;
-    -moz-flex-direction   : column;
-    -ms-flex-direction    : column;
-    -o-flex-direction     : column;
-    flex-direction        : column;
-    -ms-align-items       : flex-end;
-    align-items           : flex-end;
-    justify-content       : center;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    -ms-align-items: flex-end;
+    align-items: flex-end;
+    justify-content: center;
 }
 
 .flex-col-c-m {
-    display               : -webkit-box;
-    display               : -webkit-flex;
-    display               : -moz-box;
-    display               : -ms-flexbox;
-    display               : flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-flex-direction: column;
-    -moz-flex-direction   : column;
-    -ms-flex-direction    : column;
-    -o-flex-direction     : column;
-    flex-direction        : column;
-    -ms-align-items       : center;
-    align-items           : center;
-    justify-content       : center;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    -ms-align-items: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .flex-col-str {
-    display               : -webkit-box;
-    display               : -webkit-flex;
-    display               : -moz-box;
-    display               : -ms-flexbox;
-    display               : flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-flex-direction: column;
-    -moz-flex-direction   : column;
-    -ms-flex-direction    : column;
-    -o-flex-direction     : column;
-    flex-direction        : column;
-    -ms-align-items       : stretch;
-    align-items           : stretch;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    -ms-align-items: stretch;
+    align-items: stretch;
 }
 
 .flex-col-sb {
-    display               : -webkit-box;
-    display               : -webkit-flex;
-    display               : -moz-box;
-    display               : -ms-flexbox;
-    display               : flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-flex-direction: column;
-    -moz-flex-direction   : column;
-    -ms-flex-direction    : column;
-    -o-flex-direction     : column;
-    flex-direction        : column;
-    justify-content       : space-between;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 
 /* ------------------------------------ */
 
 .flex-col-rev-l {
-    display               : -webkit-box;
-    display               : -webkit-flex;
-    display               : -moz-box;
-    display               : -ms-flexbox;
-    display               : flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-flex-direction: column-reverse;
-    -moz-flex-direction   : column-reverse;
-    -ms-flex-direction    : column-reverse;
-    -o-flex-direction     : column-reverse;
-    flex-direction        : column-reverse;
-    -ms-align-items       : flex-start;
-    align-items           : flex-start;
+    -moz-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    -o-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    -ms-align-items: flex-start;
+    align-items: flex-start;
 }
 
 .flex-col-rev-r {
-    display               : -webkit-box;
-    display               : -webkit-flex;
-    display               : -moz-box;
-    display               : -ms-flexbox;
-    display               : flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-flex-direction: column-reverse;
-    -moz-flex-direction   : column-reverse;
-    -ms-flex-direction    : column-reverse;
-    -o-flex-direction     : column-reverse;
-    flex-direction        : column-reverse;
-    -ms-align-items       : flex-end;
-    align-items           : flex-end;
+    -moz-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    -o-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    -ms-align-items: flex-end;
+    align-items: flex-end;
 }
 
 .flex-col-rev-c {
-    display               : -webkit-box;
-    display               : -webkit-flex;
-    display               : -moz-box;
-    display               : -ms-flexbox;
-    display               : flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-flex-direction: column-reverse;
-    -moz-flex-direction   : column-reverse;
-    -ms-flex-direction    : column-reverse;
-    -o-flex-direction     : column-reverse;
-    flex-direction        : column-reverse;
-    -ms-align-items       : center;
-    align-items           : center;
+    -moz-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    -o-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    -ms-align-items: center;
+    align-items: center;
 }
 
 .flex-col-rev-str {
-    display               : -webkit-box;
-    display               : -webkit-flex;
-    display               : -moz-box;
-    display               : -ms-flexbox;
-    display               : flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-flex-direction: column-reverse;
-    -moz-flex-direction   : column-reverse;
-    -ms-flex-direction    : column-reverse;
-    -o-flex-direction     : column-reverse;
-    flex-direction        : column-reverse;
-    -ms-align-items       : stretch;
-    align-items           : stretch;
+    -moz-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    -o-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    -ms-align-items: stretch;
+    align-items: stretch;
 }
 
 
@@ -9830,96 +9819,96 @@ p{
 */
 
 .ab-c-m {
-    position         : absolute;
-    top              : 50%;
-    left             : 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
     -webkit-transform: translate(-50%, -50%);
-    -moz-transform   : translate(-50%, -50%);
-    -ms-transform    : translate(-50%, -50%);
-    -o-transform     : translate(-50%, -50%);
-    transform        : translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 .ab-c-t {
-    position         : absolute;
-    top              : 0px !important;
-    left             : 50%;
+    position: absolute;
+    top: 0px !important;
+    left: 50%;
     -webkit-transform: translateX(-50%);
-    -moz-transform   : translateX(-50%);
-    -ms-transform    : translateX(-50%);
-    -o-transform     : translateX(-50%);
-    transform        : translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
 }
 
 .ab-c-b {
-    position         : absolute;
-    bottom           : 0px !important;
-    left             : 50%;
+    position: absolute;
+    bottom: 0px !important;
+    left: 50%;
     -webkit-transform: translateX(-50%);
-    -moz-transform   : translateX(-50%);
-    -ms-transform    : translateX(-50%);
-    -o-transform     : translateX(-50%);
-    transform        : translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
 }
 
 .ab-l-m {
-    position         : absolute;
-    left             : 0px !important;
-    top              : 50%;
+    position: absolute;
+    left: 0px !important;
+    top: 50%;
     -webkit-transform: translateY(-50%);
-    -moz-transform   : translateY(-50%);
-    -ms-transform    : translateY(-50%);
-    -o-transform     : translateY(-50%);
-    transform        : translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 .ab-r-m {
-    position         : absolute;
-    right            : 0px !important;
-    top              : 50%;
+    position: absolute;
+    right: 0px !important;
+    top: 50%;
     -webkit-transform: translateY(-50%);
-    -moz-transform   : translateY(-50%);
-    -ms-transform    : translateY(-50%);
-    -o-transform     : translateY(-50%);
-    transform        : translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 .ab-t-l {
     position: absolute;
-    left    : 0px !important;
-    top     : 0px !important;
+    left: 0px !important;
+    top: 0px !important;
 }
 
 .ab-t-r {
     position: absolute;
-    right   : 0px !important;
-    top     : 0px !important;
+    right: 0px !important;
+    top: 0px !important;
 }
 
 .ab-b-l {
     position: absolute;
-    left    : 0px !important;
-    bottom  : 0px !important;
+    left: 0px !important;
+    bottom: 0px !important;
 }
 
 .ab-b-r {
     position: absolute;
-    right   : 0px !important;
-    bottom  : 0px !important;
+    right: 0px !important;
+    bottom: 0px !important;
 }
 
 .ab-t-b-l {
     position: absolute;
-    top     : 0;
-    left    : 0px !important;
-    bottom  : 0px !important;
+    top: 0;
+    left: 0px !important;
+    bottom: 0px !important;
 }
 
 .ab-t-b-r {
     position: absolute;
-    top     : 0;
-    right   : 0px !important;
-    bottom  : 0px !important;
+    top: 0;
+    right: 0px !important;
+    bottom: 0px !important;
 }
 
 
@@ -9927,11 +9916,11 @@ p{
 
 ::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(114, 114, 114, 0.3) !important;
-    background-color  : #f1f1f1 !important;
+    background-color: #f1f1f1 !important;
 }
 
 ::-webkit-scrollbar {
-    width           : 6px !important;
+    width: 6px !important;
     background-color: #8a8a8a !important;
 }
 
@@ -9985,7 +9974,6 @@ p{
     background: #e1e1e1 !important;
 }
 
-
 .bg-ce {
     background: #cecece !important;
 }
@@ -10021,6 +10009,7 @@ p{
 .bg-grey {
     background: grey !important;
 }
+
 
 /* ------------------------- End Background ---------------------- */
 
@@ -10075,7 +10064,7 @@ p{
 
 .pos-top-align {
     position: relative;
-    top     : 5px !important;
+    top: 5px !important;
 }
 
 .box-s-n {
@@ -10111,12 +10100,12 @@ p{
 }
 
 .of-x {
-    overflow  : hidden;
+    overflow: hidden;
     overflow-x: scroll;
 }
 
 .of-y {
-    overflow  : hidden;
+    overflow: hidden;
     overflow-y: scroll;
 }
 
@@ -10125,9 +10114,9 @@ p{
 }
 
 .of-text {
-    overflow     : hidden;
+    overflow: hidden;
     text-overflow: ellipsis;
-    white-space  : nowrap;
+    white-space: nowrap;
 }
 
 .cursor {
@@ -10336,27 +10325,27 @@ p{
 /* ------------------------- Padding ---------------------- */
 
 .ptb-0 {
-    padding-top   : 0px !important;
+    padding-top: 0px !important;
     padding-bottom: 0px !important;
 }
 
 .plr-0 {
-    padding-left : 0px !important;
+    padding-left: 0px !important;
     padding-right: 0px !important;
 }
 
 .plr-5 {
-    padding-left : 5px !important;
+    padding-left: 5px !important;
     padding-right: 5px !important;
 }
 
 .plr-10 {
-    padding-left : 10px !important;
+    padding-left: 10px !important;
     padding-right: 10px !important;
 }
 
 .plr-15 {
-    padding-left : 15px !important;
+    padding-left: 15px !important;
     padding-right: 15px !important;
 }
 
@@ -10710,22 +10699,22 @@ p{
 
 .b-t-r-5 {
     border-top-right-radius: 5px !important;
-    border-top-left-radius : 5px !important;
+    border-top-left-radius: 5px !important;
 }
 
 .b-t-r-10 {
     border-top-right-radius: 10px !important;
-    border-top-left-radius : 10px !important;
+    border-top-left-radius: 10px !important;
 }
 
 .b-b-r-5 {
     border-bottom-right-radius: 5px !important;
-    border-bottom-left-radius : 5px !important;
+    border-bottom-left-radius: 5px !important;
 }
 
 .b-b-r-10 {
     border-bottom-right-radius: 10px !important;
-    border-bottom-left-radius : 10px !important;
+    border-bottom-left-radius: 10px !important;
 }
 
 .b-r-t-r-5 {
